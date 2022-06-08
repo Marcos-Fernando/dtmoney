@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createServer, Model } from 'miragejs';
 import { App } from './App'
-import { transitions } from 'polished';
 
 createServer({
   //mirage possui um banco de dados externos
